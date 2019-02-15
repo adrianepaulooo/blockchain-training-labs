@@ -9,24 +9,21 @@ System Type: 64-bit
 Processor: Intel® Core™ i3-6100U CPU @ 2.30GHz × 4
 Ram: 4GB
 
-Before you proceed to Hyperledger Composer Prerequisites installation, you need to install Node and Docker as one of the requirements in Hyperledger.
-Node --	
-https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
-Docker --
-https://medium.com/@sebagomez/installing-the-docker-client-on-ubuntus-windows-subsystem-for-linux-612b392a44c4
+Before you proceed to Hyperledger Composer Prerequisites installation, you need to install Node and Docker as one of the 
+requirements in Hyperledger.
+
+Node --	https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+Docker --https://medium.com/@sebagomez/installing-the-docker-client-on-ubuntus-windows-subsystem-for-linux-612b392a44c4
 
 Hyperledger Prerequisites Installation
 
 Open a Terminal, then enter the following command.
 
-
 curl –O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
-
 chmod u+x prereqs-ubuntu.sh
-
 ./prereqs-ubuntu.sh
 
-After that, intall Go language using this command.
+After that, install Go language using this command.
 
 wget https://storage.googleapis.com/golang/go1.9.2.linux-amd64.tar.gz && \
 
@@ -39,10 +36,14 @@ echo 'export PATH=$PATH:$GOROOT/bin:$GOPATH/bin' | tee -a $HOME/.bashrc && \
 mkdir -p $HOME/go/{src,pkg,bin}
 
 
-You can check your Go language version using this command: go version.
+You can check your Go language version using terminal by typing this command: 
+go version
+
 Then install vscode using terminal by typing this command:
 sudo snap install vscode –classic
-After installing the vscode, Open the application the go to View > Extension (CTRL + SHIFT + X) And search Hyperledger Composer in the search bar then install it.
+
+After installing the vscode, Open the application the go to View > Extension (CTRL + SHIFT + X) And search Hyperledger Composer 
+in the search bar then install it.
 
 
     Activity
