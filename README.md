@@ -50,8 +50,8 @@ in the search bar then install it.
 
 
     Clone the repositories using terminal by typing this command:
-    git clone https://github.com/khrandm/blockchain-training-labs
-    git clone https://github.com/hyperledger/fabric-samples
+    git clone https://github.com/adrianepaulooo/blockchain-training-labs/
+    git clone https://github.com/hyperledger/fabric-samples/
 
     1. Open the blockchain-training-labs folder then go to chaincode folder and copy the supply folder.
     
